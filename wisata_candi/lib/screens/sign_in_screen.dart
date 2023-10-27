@@ -2,7 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 class SignInScreen extends StatefulWidget {
-  const SignInScreen({super.key});
+  SignInScreen({super.key});
 
   @override
   State<SignInScreen> createState() => _SignInScreenState();
