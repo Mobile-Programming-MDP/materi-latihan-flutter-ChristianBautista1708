@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: "Halo Widget",
         theme: ThemeData(primarySwatch: Colors.blue),
-        home: WidgetDemo());
+        home: FirstScreen());
   }
 }
 
@@ -38,7 +38,7 @@ class FirstScreen extends StatelessWidget {
             onPressed: () {},
             icon: const Icon(
               Icons.home,
-              color: Colors.white,
+              color: Colors.black,
             ),
           )),
       body: const Center(
